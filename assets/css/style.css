@@ -54,7 +54,7 @@ a {
     border-right: 1px solid #666666;
 }
 /* About Me Begins */
-#main-bio, #main-portfolio {
+#main-bio, #main-portfolio, #main-contact {
     background-color: #ffffff;
     border: 1px solid #dddddd;
     margin-top: 0%;
@@ -62,7 +62,7 @@ a {
 
 }
 
-#main-bio h2 {
+#main-bio h2, #main-portfolio h2, #main-contact h2 {
     color: #4aaaa5;
 }
 
