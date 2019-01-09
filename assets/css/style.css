@@ -50,6 +50,12 @@ a {
     margin: 5px;
 }
 
+a:hover {
+    color: red;
+    font-weight: bold;
+    background-color: black;
+}
+
 .about, .portfolio {
     border-right: 1px solid #666666;
 }
