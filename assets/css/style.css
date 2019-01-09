@@ -16,7 +16,7 @@ header {
     margin-left: 20%;
     background-color: #ffffff;
     color: #4aaaa5;
-    
+    border-bottom: 1px solid #777777;
     font-family: 'Georgia', Times, Times New Roman, serif;
     
     
@@ -34,6 +34,10 @@ h1 {
     float: left;
     padding: 20px;
     margin-bottom: 0px;
+}
+
+h1:hover {
+    opacity: 0.5;
 }
 
 nav {
