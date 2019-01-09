@@ -60,7 +60,7 @@ a:hover {
     background-color: black;
 }
 
-.about, .portfolio {
+.about, .portfolio, .home {
     border-right: 1px solid #666666;
 }
 /* About Me Begins */
