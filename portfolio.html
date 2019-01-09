@@ -5,44 +5,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Welcome</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Mustafa Ay</h1>
-        <nav>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-    <figure>
-        <h2>Portfolio</h2>
-        <hr>
+    <div class="wrapper">
+        <div class="header-filler">
 
-        <img src="assets/images/abstract-q-c-640-480-8.jpg" alt="Project 1" width="300px" height="300px">
-        <h3>Project 1</h3>
+            <header>
 
-        <img src="assets/images/city-q-c-640-480-4.jpg" alt="Project 2" width="300px" height="300px">
-        <h3>Project 2</h3>
+                <h1>Mustafa Ay</h1>
+                <nav>
+                    <a class="about" href="index.html">About</a>
+                    <a class="portfolio" href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
 
-        <img src="assets/images/nature-q-c-640-480-10.jpg" alt="Project 3" width="300px" height="300px">
-        <h3>Project 3</h3>
-
-        <img src="assets/images/nature-q-c-640-480-3.jpg" alt="Project 4" width="300px" height="300px">
-        <h3>Project 4</h3>
-
-        <img src="assets/images/nature-q-c-640-480-7.jpg" alt="Project 5" width="300px" height="300px">
-        <h3>Project 5</h3>
-    </figure>
+                <div class="clearfix"></div>
 
 
+            </header>
+        </div>
+
+
+        <div class="main">
+
+            <section id="main-portfolio">
+                <h2>Portfolio</h2>
+                <hr>
+                <div class="abstract">
+                    <img src="assets/images/abstract-q-c-640-480-8.jpg" alt="Abstract">
+                    
+                        <h3>Abstract</h3>
+                    
+                </div>
+                <div class="city">
+                    <img src="assets/images/city-q-c-640-480-4.jpg" alt="City">
+                    <h3>City</h3>
+                </div>
+                <div class="clearfix"></div>
+                <div class="nat1">
+                    <img src="assets/images/nature-q-c-640-480-10.jpg" alt="Nature1">
+                    <h3>Nature 1</h3>
+                </div>
+                <div class="nat2">
+                    <img src="assets/images/nature-q-c-640-480-3.jpg" alt="Nature 2">
+                    <h3>Nature 2</h3>
+                </div>
+                <div class="clearfix"></div>
+                <div class="nat3">
+                    <img src="assets/images/nature-q-c-640-480-7.jpg" alt="Nature 3">
+                    <h3>Nature 3</h3>
+                </div>
+
+                <div class="clearfix"></div>
+            </section>
+        </div>
+        <div class="push"></div>
+    </div>
 
 
 
-    <footer>
+    <footer class="footer">
         <h6>&copy;Copyright</h6>
     </footer>
 
