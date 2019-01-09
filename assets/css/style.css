@@ -88,6 +88,10 @@ img {
     height: 200px;
 }
 
+img:hover {
+    opacity: 0.7;
+}
+
 .abstract, .city, .nat1, .nat2, .nat3 {
     position: relative;
     /* border: 2px solid black; */
