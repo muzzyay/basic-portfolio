@@ -1,57 +1,98 @@
-header {
-    position: relative;
-    background-color: white;
-    border: 1px solid #cccccc;
+body {
+    /* width: 960px; */
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin: 0 auto;
+    background-image: url(../images/morocco.png)
 }
 
-header h1 {
-    border: 1px solid #cccccc;
-    background-color: #4aaaa5;
+.header-filler {
+    background-color: #ffffff;
+}
+
+header {
+    width: 960px;
+    margin-left: 20%;
+    background-color: #ffffff;
+    color: #4aaaa5;
+    
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    
+    
+}
+
+.main {
+    width: 960px;
+    margin-top: 25px;
+    margin-left: 20%;
+}
+
+h1 {
     color: white;
-    text-align: center;
-    padding: 30px;
-    margin-right: 1250px;
-    margin-left: 20px;
+    background-color: #4aaaa5;
     float: left;
+    padding: 20px;
+    margin-bottom: 0px;
 }
 
 nav {
-    margin-right: 20px;
-    margin-left: 1250px;
     float: right;
+    
+    margin-top: 40px;
+    margin-right: 25px;
+    color: grey;
+}
+/* About Me Begins */
+#main-bio {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin-top: 0%;
+    padding: 20px;
 
 }
-body {
-   background-image: url('../../assets/images/morocco.png');
 
-}
-
-article {
-    background-color: white;
-    border: 1px solid #666666;
-    width: 960px;
-    overflow: auto;
-    margin-left: 275px;
-    margin-right: 275px;
-    margin-top: 60px;
-    margin-bottom: 30px;
-    padding: 30px;
-}
-
-article h2{
+#main-bio h2 {
     color: #4aaaa5;
 }
 
-img {
+#main-bio img {
+    margin: 20px;
     float: left;
-    margin: 15px;
+    
 }
 
-
+#main-bio p {
+    
+}
+/* About Me Ends */
 footer {
-    position:sticky;
-    color: white;
-    text-align: center;
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
+    color: white;
+    text-align: center; 
+    
 }
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* Sticky Footer */
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .wrapper {
+    min-height: 100%;
+  
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+  }
+  .footer,
+  .push {
+    height: 50px;
+  }
